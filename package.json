@@ -35,7 +35,7 @@
     "build:umd:dev": "rollup -c --environment TARGET:umd-dev",
     "build:umd:prod": "rollup -c --environment TARGET:umd-prod",
     "storybook": "start-storybook -p 9001 -c .storybook",
-    "storybook:build": "build-storybook -c .storybook -o docs/dist/stories",
+    "storybook:build": "build-storybook -c .storybook -o docs/stories",
     "precommit": "lint-staged",
     "cz": "git-cz",
     "commitmsg": "commitlint -e $GIT_PARAMS",
