@@ -12,6 +12,10 @@ storiesOf("Helpers", module).add("fancy counter", () => ({
              </co-fancy-counter>`
 }));
 
+storiesOf("Helpers", module).add("currency format", () => ({
+  template: `<co-component>{{200 | currency}}</co-component>`
+}));
+
 storiesOf("Customer", module)
   .add("login", () => ({
     template: `<hello-world></hello-world>`

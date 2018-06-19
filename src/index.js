@@ -18,6 +18,7 @@ import ProductView from "./components/product/product-view.vue";
 import ProductReview from "./components/product/product-review.vue";
 import ProductDescription from "./components/product/product-description.vue";
 
+import Component from "./components/helpers/component.vue";
 import FancyCounter from "./components/helpers/fancy-counter.vue";
 
 // Customer and myaccount components
@@ -34,6 +35,7 @@ const MkplaceVue = {
   CartItemResult,
   HasCartItem,
   CartCounter,
+  Component,
   CartSummary,
   Simulation,
   ProductView,
@@ -127,6 +129,7 @@ const MkplaceVue = {
     Vue.component(prefix + "FancyCounter", FancyCounter);
     Vue.component(prefix + "Cart", Cart);
     Vue.component(prefix + "CartCounter", CartCounter);
+    Vue.component(prefix + "Component", Component);
     Vue.component(prefix + "EmptyCart", EmptyCart);
     Vue.component(prefix + "HasCartItem", HasCartItem);
     Vue.component(prefix + "ProductReview", ProductReview);
@@ -390,6 +393,7 @@ export {
   Cart,
   EmptyCart,
   CartItemResult,
+  Component,
   HasCartItem,
   CartCounter,
   CartSummary,
